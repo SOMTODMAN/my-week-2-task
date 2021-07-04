@@ -50,3 +50,26 @@ body{
     color: white;
     margin-top: 5%;
 }
+
+@media (max-width:500px){
+    .c1 {
+        display: grid;
+        grid-template-columns: 5% 50% 15% 15% 15%;
+        height: 50px;
+    }
+    .i1 {
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+
+    }
+    .bb{
+        display: grid;
+        grid-template-columns: 10% 80%;
+        grid-template-rows: 50% 50%;
+    }
+    .bj{
+        display: grid;
+        grid-template-columns: 10% 40% 10% 40%;
+    }
+
+}
